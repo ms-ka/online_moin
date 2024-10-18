@@ -1,0 +1,37 @@
+
+header {
+    background-color: antiquewhite;
+    text-align: center;
+    color: cornflowerblue;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 10px;     
+}
+
+main {
+    background-color: aliceblue;
+    color:rgb(87, 66, 14) ;
+    text-decoration-color: aquamarine;
+    text-align: left;
+    margin: 10px;
+    font-size: larger;
+    border: 5px;
+    border-radius: 10px;     
+
+}
+.description {
+    border: 2px solid black; 
+    padding: 10px;     
+}
+
+footer {
+    background-color: rgb(227, 188, 89);
+    color: rgb(252, 253, 253);
+    text-align: left;
+    margin: 10px;
+    font-size: large;
+    border: 5px;
+    border-radius: 10px;     
+
+    
+}
