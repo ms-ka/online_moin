@@ -17,7 +17,6 @@ body {
 
 main {
     color:rgb(87, 66, 14) ;
-    margin: 40px;
     font-size: larger;
 }
 
@@ -42,31 +41,31 @@ main {
   
   .graphic-element1 {
     position: absolute;
-    width: 150px; 
+    width: 250px; 
     height: auto;
-    top: -10px; 
+    top: -60px; 
     right: 500px;
   }
   .graphic-element2 {
     position: absolute;
-    width: 150px; 
+    width: 250px; 
     height: auto;
-    top: 240px; 
+    top: 130px; 
     right: 480px;
   }
   .graphic-element3 {
     position: absolute;
-    width: 150px; 
+    width: 250px; 
     height: auto;
-    top: -50px; 
-    right: -90px;
+    top: -100px; 
+    right: -150px;
   }
   .graphic-element4 {
     position: absolute;
-    width: 150px; 
+    width: 250px; 
     height: auto;
-    top: 240px; 
-    right: -80px;
+    top: 210px; 
+    right: -180px;
   }
   
 .music {
