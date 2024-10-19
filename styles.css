@@ -8,8 +8,14 @@ header {
     border:3px solid black;
     margin: 40px;
 }
+body {
+  background-image: url('./background.jpg'); /* Ścieżka do obrazu */
+  background-size: cover; /* Sprawia, że obraz pokrywa cały obszar */
+  background-position: center; /* Obraz zostanie wyśrodkowany */
+  background-repeat: no-repeat; /* Zapobiega powtarzaniu obrazu */
+}
+
 main {
-    background-color: aliceblue;
     color:rgb(87, 66, 14) ;
     margin: 40px;
     font-size: larger;
@@ -65,7 +71,7 @@ main {
   
 .music {
         margin: 10px;
-   }
+   }   
 
 footer {
     background-color: rgb(227, 188, 89);
