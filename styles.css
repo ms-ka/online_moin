@@ -3,27 +3,69 @@ header {
     background-color: #ffd700;
     text-align: center;
     color: #008080;
-    padding: 10px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    border-radius: 10px;     
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    border:3px solid black;
+    margin: 40px;
 }
-
 main {
     background-color: aliceblue;
     color:rgb(87, 66, 14) ;
-    margin: 10px;
+    margin: 40px;
     font-size: larger;
-    border-radius: 10px;     
 }
 
 .description {
     border: 2px solid black; 
-    padding: 10px;     
+    padding: 10px;  
+    margin: 20px;   
 }
+.content-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    height: 100vh; 
+    text-align: center; 
+  }
 
+.custom-img {
+    max-width: 100%; 
+    height: auto; 
+    display: block;
+  }
+  
+  .graphic-element1 {
+    position: absolute;
+    width: 150px; 
+    height: auto;
+    top: -10px; 
+    right: 500px;
+  }
+  .graphic-element2 {
+    position: absolute;
+    width: 150px; 
+    height: auto;
+    top: 240px; 
+    right: 480px;
+  }
+  .graphic-element3 {
+    position: absolute;
+    width: 150px; 
+    height: auto;
+    top: -50px; 
+    right: -90px;
+  }
+  .graphic-element4 {
+    position: absolute;
+    width: 150px; 
+    height: auto;
+    top: 240px; 
+    right: -80px;
+  }
+  
 .music {
         margin: 10px;
-/* postavit v serednine */
    }
 
 footer {
@@ -31,5 +73,6 @@ footer {
     color: rgb(252, 253, 253);
     font-size: large;
     border: 5px;
-    border-radius: 10px;     
+    border-radius: 10px;   
+    margin: 40px;  
 }
