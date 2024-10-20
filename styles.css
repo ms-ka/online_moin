@@ -14,7 +14,8 @@ body {
   background-image: url('./background.jpg'); /* Ścieżka do obrazu */
   background-size: cover; /* Sprawia, że obraz pokrywa cały obszar */
   background-position: center; /* Obraz zostanie wyśrodkowany */
-  background-repeat: no-repeat; /* Zapobiega powtarzaniu obrazu */
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Zapobiega powtarzaniu obrazu */
 }
 
 main {
