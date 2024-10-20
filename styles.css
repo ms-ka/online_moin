@@ -36,6 +36,7 @@ main {
 
 .custom-img {
     max-width: 100%; 
+    width: 560px;
     height: auto; 
     display: block;
   }
