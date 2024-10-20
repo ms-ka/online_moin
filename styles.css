@@ -32,8 +32,8 @@ main {
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
     padding: 10px;  
     margin: 20px;   
+    width: 560px;
 }
-
 
 .content-center {
     display: flex;
@@ -68,8 +68,8 @@ main {
     position: absolute;
     width: 250px; 
     height: auto;
-    top: -130px; 
-    right: -150px;
+    top: -160px; 
+    right: -180px;
   }
   .graphic-element4 {
     position: absolute;
@@ -95,7 +95,7 @@ main {
   }   
 
 footer {
-    background-color: rgb(227, 188, 89);
+    background-color: rgb(227, 188, 89, 60%);
     color: rgb(252, 253, 253);
     font-size: large;
     border: 2px solid black; 
